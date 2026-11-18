@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="cBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0fdf4"/>
+      <stop offset="100%" stop-color="#dcfce7"/>
+    </linearGradient>
+    <linearGradient id="tube" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="50%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="16" fill="url(#cBg)"/>
+  <path d="M65 35 L135 35 L125 140 L75 140 Z" fill="url(#tube)"/>
+  <rect x="78" y="140" width="44" height="26" rx="4" fill="#ffffff" stroke="#a7f3d0" stroke-width="2"/>
+  <rect x="76" y="65" width="48" height="50" rx="6" fill="#ffffff" opacity="0.95"/>
+  <circle cx="100" cy="85" r="8" fill="#34d399"/>
+  <line x1="86" y1="102" x2="114" y2="102" stroke="#64748b" stroke-width="2" stroke-linecap="round"/>
+</svg>
